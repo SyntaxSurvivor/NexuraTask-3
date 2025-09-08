@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Itinerary Form</title>
+    <link rel="stylesheet" href="styles.css">
+    
+</head>
+
+<body>
+    <header>
+        ✈️ Travel Itinerary Form
+        <span>Plan your trip details with ease</span>
+    </header>
+    <form>
+        <section>
+            <h2>Trip Details</h2>
+            <label>Destination *<input type="text" name="destination" required></label>
+            <label>Purpose of Travel
+                <select name="purpose">
+                    <option value="">-- Select --</option>
+                    <option>Leisure</option>
+                    <option>Business</option>
+                    <option>Visiting family / friends</option>
+                    <option>Education</option>
+                </select>
+            </label>
+            <label>Start Date *<input type="date" name="startDate" required></label>
+            <label>End Date *<input type="date" name="endDate" required></label>
+            <label>Additional Notes<textarea name="notes" rows="3"></textarea></label>
+        </section>
+
+        <section>
+            <h2>Traveler Information</h2>
+            <label>Full Name *<input type="text" name="fullName" required></label>
+            <label>Email *<input type="email" name="email" required></label>
+            <label>Phone *<input type="tel" name="phone" required></label>
+            <label>Date of Birth<input type="date" name="dob"></label>
+            <label>Passport Number<input type="text" name="passportNumber"></label>
+        </section>
+
+        <section>
+            <h2>Upload Passport Copy</h2>
+            <label>Upload File *<input type="file" name="passportFile" accept=".pdf,image/*" required></label>
+        </section>
+
+        <div class="form-actions">
+            <button type="reset">Reset</button>
+            <button type="submit">Submit Itinerary</button>
+        </div>
+    </form>
+
+    <footer style="color: #000000 ;">Copyright © 2025 Siddharth Sharma<br>UIT-RGPV CSE</footer>
+</body>
+
+</html>
