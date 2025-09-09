@@ -102,12 +102,7 @@ button:hover {
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
 }
 
-footer {
-    text-align: center;
-    margin-top: 40px;
-    font-size: 13px;
-    color: #666;
-}
+
 
 header {
     background: linear-gradient(135deg, #2e86ab, #5aa9e6);
@@ -128,4 +123,11 @@ header span {
     font-weight: 400;
     margin-top: 4px;
     color: #f1f1f1;
+}
+
+footer {
+    text-align: center;
+    margin-top: 40px;
+    font-size: 13px;
+    color: #666;
 }
